@@ -1,0 +1,30 @@
+{
+  "name": "eternal_jukebox",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "init": "npm run build && npm run apply",
+    "build": "spicetify-creator",
+    "build-local": "spicetify-creator --out=dist --minify",
+    "watch": "spicetify-creator --watch",
+    "launch-watch": "spicetify watch -a",
+    "apply": "spicetify config custom_apps eternal-jukebox && spicetify apply",
+    "unapply": "spicetify config custom_apps eternal-jukebox- && spicetify apply",
+    "lint": "npx tsc --noemit && npx eslint --ext .tsx,.ts src/",
+    "format": "npx prettier --write src/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "@types/tinycolor2": "^1.4.6",
+    "lucide-react": "^0.299.0",
+    "observable-hooks": "^4.2.3",
+    "rxjs": "^7.8.1",
+    "spcr-whats-new": "^1.0.1",
+    "tinycolor2": "^1.6.0"
+  },
+  "dependencies": {
+    "compare-versions": "^6.1.1"
+  }
+}
