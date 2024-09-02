@@ -1,4 +1,4 @@
-import styles from './Home.module.scss';
+import styles from './main_home_logic.module.scss';
 import React, { useEffect, useState } from 'react';
 import { JukeboxVisualizer } from './visualizer/media_visualizer_logic';
 import { millisToMinutesAndSeconds } from '../utils/time_functions';

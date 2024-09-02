@@ -1,4 +1,4 @@
-import styles from './media_visualizer_style.module.scss';
+import styles from './media_visualizer.module.scss';
 import React, { useEffect } from 'react';
 import { VisualizerSlice } from './visual_slice_logic';
 import { VisualizerEdge } from './visual_edge_logic';

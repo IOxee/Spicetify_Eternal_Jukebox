@@ -1,4 +1,4 @@
-import styles from './settings_popup_style.module.scss';
+import styles from './settings_popup.module.scss';
 import React, { useEffect, useState } from 'react';
 import type { JukeboxStoredSettings } from '../../models/audio_settings';
 import { JukeboxSettings } from '../../models/audio_settings';

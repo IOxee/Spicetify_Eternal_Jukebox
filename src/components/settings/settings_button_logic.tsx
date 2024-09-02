@@ -1,4 +1,4 @@
-import styles from './settings_popup_logic.module.scss';
+import styles from './settings_popup.module.scss';
 import React, { type CSSProperties } from 'react';
 import { Settings } from 'lucide-react';
 import { SettingsModal } from './settings_popup_logic';

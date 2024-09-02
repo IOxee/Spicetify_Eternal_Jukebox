@@ -1,4 +1,6 @@
 {
   "displayName": "Eternal Jukebox",
-  "nameId": "eternal_jukebox"
+  "nameId": "eternal-jukebox",
+  "icon": "css/icon_image.svg",
+  "activeIcon": "css/icon_image.svg"
 }
